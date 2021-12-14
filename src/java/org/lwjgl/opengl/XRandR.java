@@ -235,9 +235,9 @@ public class XRandR {
 	 * Used on exit or in case of a crash to reset all devices.
 	 */
 	public static void restoreConfiguration() {
-		if ( savedConfiguration != null ) {
+		/*if ( savedConfiguration != null ) {
 			setConfiguration(true, savedConfiguration);
-		}
+		}*/
 	}
 
 	/**
