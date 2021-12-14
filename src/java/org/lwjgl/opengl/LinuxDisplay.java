@@ -651,8 +651,8 @@ final class LinuxDisplay implements DisplayImplementation {
 			{
 				switchDisplayMode(saved_mode);
 			}
-			if (isXF86VidModeSupported())
-				doSetGamma(saved_gamma);
+			/*if (isXF86VidModeSupported())
+				doSetGamma(saved_gamma);*/
 
 			Compiz.setLegacyFullscreenSupport(false);
 		} catch (LWJGLException e) {
